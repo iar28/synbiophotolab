@@ -3,159 +3,164 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Synthetic Biology & Photosynthesis Lab – CRAG</title>
+  <title>Synthetic Biology & Photosynthesis | CRAG</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
 <header>
-  <img src="img/logo.png" class="logo" alt="Lab Logo">
-  <h1>Synthetic Biology & Photosynthesis Lab</h1>
-  <h2>CRAG – Centre for Research in Agricultural Genomics</h2>
+  <div class="header-content">
+    <img src="img/logo.png" class="logo" alt="CRAG Lab Logo">
+    <div class="title-group">
+      <h1>Synthetic Biology & Photosynthesis</h1>
+      <h2>CRAG – Centre for Research in Agricultural Genomics</h2>
+    </div>
+  </div>
 </header>
-
 <nav>
   <ul>
-    <li><a href="#">Home</a></li>
+    <li><a href="#home">Home</a></li>
     <li><a href="#research">Research</a></li>
-    <li><a href="#people">People</a></li>
+    <li><a href="#people">Team</a></li>
     <li><a href="#publications">Publications</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
-
 <main>
-
-  <!-- INTRO -->
-  <section id="intro">
-    <h2>Welcome</h2>
-    <p>
-      Our group investigates how photosynthesis works, how it evolved, and how it can be redesigned. 
-      Using synthetic biology, genome engineering, physiology, and evolutionary approaches, 
-      we aim to understand and improve photosynthetic performance in plants.
-    </p>
-    <p>
-      We combine chloroplast biology, gene expression analysis, metabolic engineering, and regulatory genomics 
-      to explore the natural diversity of photosynthetic systems and to create new-to-nature variants.
-    </p>
+  <!-- HOME/INTRO -->
+  <section id="home" class="section intro">
+    <div class="content-wrapper">
+      <h2>Re-engineering the Future of Photosynthesis</h2>
+      <p>
+        Our group investigates how global re-arrangements of gene regulatory networks have shaped the evolution of carbon concentrating mechanisms like C4 photosynthesis and Crassulacean acid metabolism (CAM). We apply this knowledge to engineer novel photosynthetic pathways in plants, enhancing crop production under heatwaves, drought, and changing environmental conditions.
+      </p>
+      <p>
+        Leveraging genomics, phenomics, and synthetic biology, we bridge evolutionary insights with cutting-edge engineering to create resilient photosynthetic systems. C4 species excel in CO<sub>2</sub> fixation but falter in extreme drought, while CAM plants thrive in aridity at the cost of productivity—we're redesigning the best of both worlds.
+      </p>
+    </div>
   </section>
-
+  
   <!-- RESEARCH SECTION -->
-  <section id="research">
-    <h2>Research Areas</h2>
-
-    <div class="grid">
-
-      <div class="card">
-        <h3>Evolution of Photosynthesis</h3>
-        <p>
-          We study how C3, C4, and CAM photosynthesis originated and diversified, 
-          using comparative genomics and physiological analysis from model and non-model species.
-        </p>
+  <section id="research" class="section">
+    <div class="content-wrapper">
+      <h2>Research Lines</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="card-glow"></div>
+          <h3>Evolution of Carbon Concentrating Mechanisms</h3>
+          <p>
+            Exploring the origins and diversification of C4 and CAM photosynthesis through comparative genomics, phenomics, and regulatory network analysis in model and wild species.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-glow"></div>
+          <h3>Synthetic Photosynthetic Pathways</h3>
+          <p>
+            Engineering hybrid metabolic configurations, including novel CO<sub>2</sub> concentration modules, to boost photosynthetic efficiency and stress tolerance in crops.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-glow"></div>
+          <h3>Gene Regulatory Networks</h3>
+          <p>
+            Decoding nuclear-plastid coordination in gene expression, focusing on how regulatory rewiring drives photosynthetic adaptation and innovation.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-glow"></div>
+          <h3>Genomic Engineering Tools</h3>
+          <p>
+            Developing synthetic biology toolkits for plastid editing, promoter design, and high-throughput screening to accelerate photosynthetic redesign.
+          </p>
+        </div>
       </div>
-
-      <div class="card">
-        <h3>Synthetic Photosynthesis</h3>
-        <p>
-          We engineer photosynthetic pathways—including carbon concentration mechanisms—to test new metabolic 
-          configurations and expand natural photosynthetic capabilities.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Chloroplast Gene Regulation</h3>
-        <p>
-          We investigate how nuclear and plastid genomes coordinate gene expression and how this affects 
-          photosynthetic function, stress responses, and development.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Genetic and Genomic Tools</h3>
-        <p>
-          We develop tools for plastid transformation, genome editing, promoter engineering, 
-          and reporter systems for photosynthetic gene networks.
-        </p>
-      </div>
-
     </div>
   </section>
-
-  <!-- PEOPLE -->
-  <section id="people">
-    <h2>People</h2>
-
-    <div class="grid people-grid">
-
-      <div class="person">
-        <img src="img/person1.jpg" alt="Person photo">
-        <h3>Principal Investigator</h3>
-        <p><strong>Ivan Reyna-Llorens</strong></p>
+  
+  <!-- PEOPLE/TEAM -->
+  <section id="people" class="section">
+    <div class="content-wrapper">
+      <h2>Team</h2>
+      <div class="grid people-grid">
+        <div class="person">
+          <div class="person-glow"></div>
+          <img src="img/ivan-reyna-llorens.jpg" alt="Ivan Reyna-Llorens">
+          <h3>Group Leader</h3>
+          <p><strong>Ivan Reyna-Llorens</strong></p>
+          <p>Expert in C4 photosynthesis evolution and synthetic biology for crop improvement. PhD from University of Cambridge.</p>
+        </div>
+        <div class="person">
+          <div class="person-glow"></div>
+          <img src="img/postdoc-placeholder.jpg" alt="Postdoc">
+          <h3>Postdoctoral Researchers</h3>
+          <p>Specializing in genomics, phenomics, and regulatory networks for photosynthetic engineering.</p>
+        </div>
+        <div class="person">
+          <div class="person-glow"></div>
+          <img src="img/phd-placeholder.jpg" alt="PhD Student">
+          <h3>PhD Students & Technicians</h3>
+          <p>Investigating synthetic pathways and evolutionary physiology in diverse plant systems.</p>
+        </div>
       </div>
-
-      <div class="person">
-        <img src="img/person2.jpg" alt="Person photo">
-        <h3>Postdoctoral Researchers</h3>
-        <p>Team members studying chloroplast biology, gene regulation, and evolutionary physiology.</p>
-      </div>
-
-      <div class="person">
-        <img src="img/person3.jpg" alt="Person photo">
-        <h3>PhD Students</h3>
-        <p>Researchers working on synthetic photosynthesis and genomic innovation.</p>
-      </div>
-
+      <p class="team-note">
+        Our dynamic team includes postdocs, PhD students, technicians, and collaborators from CRAG, UAB, and global institutions. We're always open to passionate researchers—reach out!
+      </p>
     </div>
-
-    <p style="margin-top:20px;">
-      Our group includes postdocs, PhD students, technicians, visiting researchers, and collaborators 
-      from CRAG, UAB, and international institutions.
-    </p>
-
   </section>
-
+  
   <!-- PUBLICATIONS -->
-  <section id="publications">
-    <h2>Selected Publications</h2>
-
-    <ul class="pubs">
-      <li>
-        <strong>Perry, A. et al. (2023)</strong> — 
-        Regulation of plastid gene expression during environmental transitions. 
-        <em>Plant Physiology</em>.
-      </li>
-      <li>
-        <strong>Perry, A. et al. (2022)</strong> — 
-        Evolution of chloroplast transcriptional networks in C3 and C4 plants. 
-        <em>Nature Communications</em>.
-      </li>
-      <li>
-        <strong>Perry, A. et al. (2021)</strong> — 
-        Engineering synthetic modules for enhanced carbon assimilation. 
-        <em>The Plant Cell</em>.
-      </li>
-    </ul>
-
-    <p>You can find a complete list of publications on the official CRAG webpage.</p>
+  <section id="publications" class="section">
+    <div class="content-wrapper">
+      <h2>Selected Publications</h2>
+      <ul class="pubs">
+        <li>
+          <strong>Borba, A.R. et al. (2023)</strong> — Compartmentation of photosynthesis gene expression in C4 maize depends on time of day. <em>Plant Physiology</em>, kiad447.
+        </li>
+        <li>
+          <strong>Reyna-Llorens, I. et al. (2023)</strong> — Plant protoplasts in the age of synthetic biology. <em>Journal of Experimental Botany</em>, erad172.
+        </li>
+        <li>
+          <strong>Burgess, S.J. et al. (2019)</strong> — Genome-wide transcription factor binding in leaves from C3 and C4 grasses. <em>The Plant Cell</em>, 31(10): 2297–2314.
+        </li>
+        <li>
+          <strong>Reyna-Llorens, I. et al. (2018)</strong> — Ancient duons may underpin spatial patterning of gene expression in C4 leaves. <em>PNAS</em>, 115(8): 1931-1936.
+        </li>
+        <li>
+          <strong>Yu, Z. et al. (2018)</strong> — Droplet-based microfluidic analysis and screening of single plant cells. <em>PLoS ONE</em>, 13(5): e0196810.
+        </li>
+        <li>
+          <strong>Reyna-Llorens, I. & Hibberd, J.M. (2017)</strong> — Recruitment of pre-existing networks during the evolution of C4 photosynthesis. <em>Philosophical Transactions of the Royal Society B</em>, 372(1730): 20160386.
+        </li>
+      </ul>
+      <p class="pubs-note">Full list available on <a href="https://scholar.google.com/citations?user=jz4dgIAAAAAJ&hl=en" target="_blank">Google Scholar</a> or the official CRAG site.</p>
+    </div>
   </section>
-
+  
   <!-- CONTACT -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p><strong>Group Leader:</strong> Ivan Reyna-Llorens</p>
-    <p><strong>Email:</strong> ivan.reyna-llorens@cragenomica.es</p>
-    <p><strong>Institution:</strong> CRAG – Centre for Research in Agricultural Genomics</p>
-    <p>Universitat Autònoma de Barcelona (UAB), Spain</p>
+  <section id="contact" class="section">
+    <div class="content-wrapper">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <h3>Group Leader</h3>
+          <p><strong>Ivan Reyna-Llorens</strong></p>
+        </div>
+        <div class="contact-item">
+          <h3>Email</h3>
+          <p><a href="mailto:ivan.reyna-llorens@cragenomica.es">ivan.reyna-llorens@cragenomica.es</a></p>
+        </div>
+        <div class="contact-item">
+          <h3>Location</h3>
+          <p>CRAG – Centre for Research in Agricultural Genomics<br>Edifici CRAG, Campus UAB<br>08193 Cerdanyola del Vallès, Barcelona, Spain</p>
+        </div>
+      </div>
+    </div>
   </section>
-
 </main>
-
 <footer>
-  <p>© 2025 Synthetic Biology & Photosynthesis Lab – CRAG</p>
-  <img src="img/chloroplast.png" class="footer-img" alt="Chloroplast illustration">
+  <p>&copy; 2025 Synthetic Biology & Photosynthesis Lab – CRAG</p>
+  <img src="img/chloroplast-neon.png" class="footer-img" alt="Neon Chloroplast Illustration">
 </footer>
-
 </body>
 </html>
